@@ -15,14 +15,7 @@ body {
 }
 
 .text {
-    color: blanchedalmond;
-    font-family: Arial, Helvetica, sans-serif;
-    align-self: flex-end;
-    padding-bottom: 20px;
-    font-size: 2rem;
-    position: relative;
-    text-decoration-line: underline;
-    bottom: 0px;
+    opacity: 0;
 }
 
 .sun {
@@ -195,6 +188,14 @@ body {
     }
 
     .text {
+        color: blanchedalmond;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: flex-end;
+        padding-bottom: 20px;
+        font-size: 2rem;
+        position: relative;
+        text-decoration-line: underline;
         bottom: -150px;
+        opacity: 100%;
     }
 }
